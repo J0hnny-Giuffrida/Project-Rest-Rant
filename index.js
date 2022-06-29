@@ -2,6 +2,8 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 
+//Code to import Router
+app.use("/places", require("./controllers/places"));
 //Homepage Route
 app.get("/", (req, res) => {
   res.send("Hello World");
