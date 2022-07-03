@@ -2,9 +2,11 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 
-//Setup JSX
+//Express Settings
+app.set("views", __dirname + "/views");
 app.set("view engine", "jsx");
 app.engine("jsx", require("express-react-views").createEngine());
+app.use(express.static("public"));
 
 //Code to import Router
 app.use("/places", require("./controllers/places"));
