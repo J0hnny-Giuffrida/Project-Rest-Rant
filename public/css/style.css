@@ -2,3 +2,26 @@ h1 {
   text-align: center;
   color: cornflowerblue;
 }
+
+.homeImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+  width: 1200;
+}
+
+.errorDiv {
+  text-align: center;
+}
+
+.errorImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.placesPic {
+  height: 500px;
+  width: auto;
+}
