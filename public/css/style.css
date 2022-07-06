@@ -61,3 +61,11 @@ nav a:hover {
   color: pink;
   text-decoration: none;
 }
+
+.showImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: auto;
+}
